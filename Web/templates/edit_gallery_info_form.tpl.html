@@ -1,0 +1,23 @@
+{% extends "base.tpl.html" %}
+
+{% block content %}
+	<div class="wrapper fadeInDown">
+		<div id="formContent" style="background-color: rgb(89, 76, 81); border: 3px solid rgb(68, 57, 61);">
+			<!-- New gallery Form -->
+			<form action="edit_gallery_info_submit.php" method="POST">
+                Gallery title: {{ old_title }}
+                <input type="text" id="gallerytitle" class="fadeIn first text-white" name="gallerytitle" placeholder="New title"><br>
+
+                Gallery title description: {{ old_title_description }}
+                <input type="text" id="gallerytitledescription" class="fadeIn second text-white" name="gallerytitledescription" placeholder="New short title description"><br>
+
+                Gallery long description:<br>{{ old_long_description }}<br>
+                <input type="text" id="gallerylongdescription" class="fadeIn fourth text-white" name="gallerylongdescription" placeholder="New long description"><br>
+
+                <input class="form-control" type="hidden" name="id" value="{{ g_id }}">
+
+                <input type="submit" class="fadeIn fifth" value="Modify gallery info" id="submit">
+            </form>
+        </div>
+    </div>
+{% endblock %}

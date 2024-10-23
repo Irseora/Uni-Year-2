@@ -1,0 +1,15 @@
+E:\Repos\Criptografie\PlusN\bin\Debug\net7.0\PlusN.exe
+E:\Repos\Criptografie\PlusN\bin\Debug\net7.0\PlusN.deps.json
+E:\Repos\Criptografie\PlusN\bin\Debug\net7.0\PlusN.runtimeconfig.json
+E:\Repos\Criptografie\PlusN\bin\Debug\net7.0\PlusN.dll
+E:\Repos\Criptografie\PlusN\bin\Debug\net7.0\PlusN.pdb
+E:\Repos\Criptografie\PlusN\obj\Debug\net7.0\PlusN.csproj.AssemblyReference.cache
+E:\Repos\Criptografie\PlusN\obj\Debug\net7.0\PlusN.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\Criptografie\PlusN\obj\Debug\net7.0\PlusN.AssemblyInfoInputs.cache
+E:\Repos\Criptografie\PlusN\obj\Debug\net7.0\PlusN.AssemblyInfo.cs
+E:\Repos\Criptografie\PlusN\obj\Debug\net7.0\PlusN.csproj.CoreCompileInputs.cache
+E:\Repos\Criptografie\PlusN\obj\Debug\net7.0\PlusN.dll
+E:\Repos\Criptografie\PlusN\obj\Debug\net7.0\refint\PlusN.dll
+E:\Repos\Criptografie\PlusN\obj\Debug\net7.0\PlusN.pdb
+E:\Repos\Criptografie\PlusN\obj\Debug\net7.0\PlusN.genruntimeconfig.cache
+E:\Repos\Criptografie\PlusN\obj\Debug\net7.0\ref\PlusN.dll

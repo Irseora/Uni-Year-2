@@ -1,0 +1,30 @@
+{% extends "base.tpl.html" %}
+
+{% block content %}
+	<div id="block">
+		<h1>
+			{% for record in result_g %}
+				{{ record.title }}
+			{% endfor %}
+		</h1>
+
+		<h4>
+			{% for record in result_g %}
+				{{ record.title_description }}
+			{% endfor %}
+		</h4>
+		
+		<br>
+		
+		{% for record in result_p %}
+			<div class="pic_container">
+				<img class="pictureimg" src="images/pictures/{{ record.picture }}"></img>
+				<div class="pic_content">
+					<h5>{{ record.short_title_description }}</h5>
+				</div>
+			</div>
+			
+			<br>
+		{% endfor %}
+	</div>
+{% endblock %}

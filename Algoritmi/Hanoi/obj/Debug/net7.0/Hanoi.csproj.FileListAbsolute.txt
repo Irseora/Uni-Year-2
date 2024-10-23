@@ -1,0 +1,15 @@
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\bin\Debug\net7.0\Hanoi.exe
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\bin\Debug\net7.0\Hanoi.deps.json
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\bin\Debug\net7.0\Hanoi.runtimeconfig.json
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\bin\Debug\net7.0\Hanoi.dll
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\bin\Debug\net7.0\Hanoi.pdb
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\obj\Debug\net7.0\Hanoi.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\obj\Debug\net7.0\Hanoi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\obj\Debug\net7.0\Hanoi.AssemblyInfoInputs.cache
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\obj\Debug\net7.0\Hanoi.AssemblyInfo.cs
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\obj\Debug\net7.0\Hanoi.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\obj\Debug\net7.0\Hanoi.dll
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\obj\Debug\net7.0\refint\Hanoi.dll
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\obj\Debug\net7.0\Hanoi.pdb
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\obj\Debug\net7.0\Hanoi.genruntimeconfig.cache
+C:\Users\Vivi\Documents\Algoritmi\Hanoi\obj\Debug\net7.0\ref\Hanoi.dll

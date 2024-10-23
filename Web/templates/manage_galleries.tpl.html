@@ -1,0 +1,18 @@
+{% extends 'base.tpl.html' %}
+
+{% block content %}
+    {% for record in result_g %}
+        <div class="mb-4" id="block">
+            <a href="show_gallery.php?id={{ record.id }}"><h2>{{ record.title }}</h2></a>
+            <h5>{{ record.title_description }}</h5>
+            <div><img src="images/galleries/{{ record.img }}" width="100%"></img></div>
+            <p>{{ record.long_description }}</p>
+
+            </br>
+            
+            <a href="delete_gallery.php?id={{ record.id }}"><input type="button" value="Delete gallery" id="button"></a>
+            <a href="edit_gallery_info.php?id={{ record.id }}"><input type="button" value="Edit gallery info" id="button"></a>
+            <!-- <a href="manage_gallery_pictures.php?id={{ record.id }}"><input type="button" value="Manage gallery pictures" id="button"></a> -->
+        </div>
+	{% endfor %}
+{% endblock %}

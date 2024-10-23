@@ -1,0 +1,15 @@
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\bin\Debug\net7.0\BinSearch.exe
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\bin\Debug\net7.0\BinSearch.deps.json
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\bin\Debug\net7.0\BinSearch.runtimeconfig.json
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\bin\Debug\net7.0\BinSearch.dll
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\bin\Debug\net7.0\BinSearch.pdb
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\obj\Debug\net7.0\BinSearch.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\obj\Debug\net7.0\BinSearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\obj\Debug\net7.0\BinSearch.AssemblyInfoInputs.cache
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\obj\Debug\net7.0\BinSearch.AssemblyInfo.cs
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\obj\Debug\net7.0\BinSearch.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\obj\Debug\net7.0\BinSearch.dll
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\obj\Debug\net7.0\refint\BinSearch.dll
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\obj\Debug\net7.0\BinSearch.pdb
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\obj\Debug\net7.0\BinSearch.genruntimeconfig.cache
+C:\Users\Vivi\Documents\Algoritmi\BinSearch\obj\Debug\net7.0\ref\BinSearch.dll

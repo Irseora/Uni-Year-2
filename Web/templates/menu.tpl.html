@@ -1,0 +1,39 @@
+<div class="container-fluid" style="background-color:rgb(89, 76, 81); border:3px solid rgb(68, 57, 61);">
+  <a class="navbar-brand" href="/tb-8-9-10"><img src="images/other/iced-coffee.png" class="d-inline-block align-top" width="40" height="40"></a>
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="manage_galleries.php">
+          {% if user_name != '' %} 
+            {{ user_id==1 ? 'Manage all galleries' : 'Manage my galleries' }}
+          {% endif %}
+        </a>
+      </li>  
+    </ul>
+
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown me-auto">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">{{ user_name == '' ? 'User': user_name }}</a>
+
+            <ul class="dropdown-menu dropdown-menu-end" style="background-color:rgb(89, 76, 81)">
+              {% if user_name != '' %}
+                <li><a class="dropdown-item" href="new_gallery_form.php">New gallery</a></li>
+                <li><a class="dropdown-item" href="edit_profile_form.php">Edit Profile</a></li>
+                <li><a class="dropdown-item" href="change_password_form.php">Change Password</a></li>
+              {% endif %}
+
+              {% if user_name == '' %}
+                <li><a class="dropdown-item" href="signup_form.php">Sign Up</a></li>
+              {% endif %}
+
+              <li><a class="dropdown-item" href="{{ user_name == '' ? 'login_form.php' : 'logout.php' }}">{{ user_name ==''? 'Log in' : 'Log out' }}</a></li>
+            </ul>
+        </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+E:\Repos\Limbaje-Formale\DFA\bin\Debug\net8.0\DFA.exe
+E:\Repos\Limbaje-Formale\DFA\bin\Debug\net8.0\DFA.deps.json
+E:\Repos\Limbaje-Formale\DFA\bin\Debug\net8.0\DFA.runtimeconfig.json
+E:\Repos\Limbaje-Formale\DFA\bin\Debug\net8.0\DFA.dll
+E:\Repos\Limbaje-Formale\DFA\bin\Debug\net8.0\DFA.pdb
+E:\Repos\Limbaje-Formale\DFA\obj\Debug\net8.0\DFA.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\Limbaje-Formale\DFA\obj\Debug\net8.0\DFA.AssemblyInfoInputs.cache
+E:\Repos\Limbaje-Formale\DFA\obj\Debug\net8.0\DFA.AssemblyInfo.cs
+E:\Repos\Limbaje-Formale\DFA\obj\Debug\net8.0\DFA.csproj.CoreCompileInputs.cache
+E:\Repos\Limbaje-Formale\DFA\obj\Debug\net8.0\DFA.sourcelink.json
+E:\Repos\Limbaje-Formale\DFA\obj\Debug\net8.0\DFA.dll
+E:\Repos\Limbaje-Formale\DFA\obj\Debug\net8.0\refint\DFA.dll
+E:\Repos\Limbaje-Formale\DFA\obj\Debug\net8.0\DFA.pdb
+E:\Repos\Limbaje-Formale\DFA\obj\Debug\net8.0\DFA.genruntimeconfig.cache
+E:\Repos\Limbaje-Formale\DFA\obj\Debug\net8.0\ref\DFA.dll

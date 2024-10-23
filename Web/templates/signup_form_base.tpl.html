@@ -1,0 +1,17 @@
+{% extends "base.tpl.html" %}
+
+{% block content %}
+    <h2>{{ titlu }}</h2>
+
+	<div class="wrapper fadeInDown">
+        <div id="formContent" style="background-color: rgb(89, 76, 81); border: 3px solid rgb(68, 57, 61);">
+            <!-- Signup Form -->
+            <form action="signup.php" method="POST">
+                <input type="text" id="login" class="fadeIn second text-white" name="username" placeholder="login" style="background-color: rgb(128, 110, 116); border: 3px solid rgb(68, 57, 61);">
+                <input type="password" id="password" class="fadeIn third text-white" name="password" placeholder="password" style="background-color: rgb(128, 110, 116); border: 3px solid rgb(68, 57, 61);">
+                <input type="password" id="cpassword" class="fadeIn fourth text-white" name="cpassword" placeholder="confirm password" style="background-color: rgb(128, 110, 116); border: 3px solid rgb(68, 57, 61);">
+                <input type="submit" class="fadeIn fifth" value="Sign Up" style="background-color: rgb(128, 110, 116); border: 3px solid rgb(68, 57, 61);">
+            </form>
+        </div>
+    </div>
+{% endblock %}

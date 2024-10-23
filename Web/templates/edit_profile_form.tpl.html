@@ -1,0 +1,23 @@
+{% extends "base.tpl.html" %}
+
+{% block content %}
+	<div class="wrapper fadeInDown">
+		<div id="formContent" style="background-color: rgb(89, 76, 81); border: 3px solid rgb(68, 57, 61);">
+			<!-- New gallery Form -->
+			<form action="edit_profile.php" method="POST" enctype="multipart/form-data">
+                Username:
+                <input type="text" id="new_username" class="fadeIn first text-white" name="new_username" placeholder="New username"><br>
+
+                Short User Description:
+                <input type="text" id="new_description" class="fadeIn second text-white" name="new_description" placeholder="New short user description"><br>
+
+                Profile Picture:
+			    <input type="file" id="new_pfp" class="fadeIn third" name="new_pfp" accept="image/*"><br>
+
+                <input class="form-control" type="hidden" name="user_id" value="{{ user_id }}">
+
+                <input type="submit" class="fadeIn fifth" value="Modify profile" id="submit">
+            </form>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ titlu }}</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="css/my.css">
+  <link rel="stylesheet" href="css/login.css">
+
+  <script>
+    function addFields(){
+      if( typeof addFields.counter == 'undefined' ) {
+        addFields.counter = 0;
+      }
+
+      //addFields.counter++;
+
+      input_container.appendChild(document.createTextNode("Imaginea" + addFields.counter +": "));
+
+      // Image
+      var input = document.createElement("input");
+      input.type = "file";
+      input.accept = "image/*";
+      input.name = "Imagini[" + addFields.counter +"]";
+      input_container.appendChild(input);
+
+      // Description
+      input = document.createElement("input");
+      input.type = "text";
+      input.name= "Short_description[" + addFields.counter +"]";
+      input.id = "image_description";
+      input_container.appendChild(input);
+      
+      // Append a line break 
+      input_container.appendChild(document.createElement("br"));
+      addFields.counter++;
+    }
+  </script>
+</head>
+
+
+
+<body>
+  <!-- Page Title Box -->
+  <div class="page_title_box">
+    <div class="container-fluid text-center text-white pt-3 pb-3">
+      <h1>{{ titlu }}</h1>
+      <p>Welcome!</p> 
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    {{ include('menu.tpl.html') }}
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container-fluid mt-2">
+    <div class="row">
+
+      <!-- Galleries (Left) -->
+      <div class="col-sm-9">
+        {% block content %}{% endblock %}
+      </div>
+
+      <!-- User, Links & Top Posts (Right) -->
+      <div class="col-sm-3">
+        <!-- User Data -->
+        <div class="user_data mb-3">
+          <div class="row">
+            <div class="col-sm-4">
+              <h3 class="m-1">About Me</h3>
+              <h5 class="m-1">{{ user_name == '' ? 'Guest': user_name }}</h5>
+              <p class="m-1">{{ user_description }}</p>
+            </div>
+
+            <div class="col-sm-8">
+              <img class="user_img" src="images\users\{{ user_image }}">
+            </div>
+          </div>
+        </div>
+
+        <!-- Top Posts Carousel -->
+        <div class="top_posts">
+          <h3 class="m-1">Top Posts</h3>
+          <div id="demo" class="carousel slide m-1" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              {% for record in result_c %}
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="{{ record.id-1 }}" class="{% if record.id == 1 %} active {% endif %}"></button>
+              {% endfor %}
+            </div>
+            
+            <!-- Slideshow/carousel -->
+            <div class="carousel-inner">
+              {% for record in result_c %}
+                <div class="carousel-item {% if record.id == 1 %} active {% endif %}">
+                  <img src="images/carousell/{{ record.file_name }}" alt="{{ record.file_description }}" class="d-block" style="width:100%">
+                </div>
+              {% endfor %}
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="mt-5 p-4 text-white text-center" style="background-color:rgb(89, 76, 81); border: 3px solid rgb(68, 57, 61);">
+    <p>:3</p>
+  </div>
+</body>
+</html>

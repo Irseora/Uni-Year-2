@@ -1,0 +1,20 @@
+{% extends 'base.tpl.html' %}
+{% block content %}
+    {% for record in result_g %}
+    <div class="row mb-3 ml-2" id="block">
+        <!-- Picture -->
+        <div class="col-8 mb-2 mt-2">
+            <div><img src="images/galleries/{{ record.img }}" width="100%"></img></div>
+        </div>
+
+        <!-- Title & Description -->
+        <div class="col-4 mb-2 mt-2" style="word-wrap: break-word">
+            <a href="show_gallery.php?id={{ record.id }}"><h2>{{ record.title }}</h2></a>
+            <h5>{{ record.title_description }}</h5>
+            <p>{{ record.long_description }}</p>
+            </br>
+        </div>
+    </div>
+    {% endfor %}
+    
+{% endblock %}
